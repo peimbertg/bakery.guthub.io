@@ -1,0 +1,62 @@
+body {
+color: #fff;
+}
+nav a {
+margin-left: 15px;
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+.hero {
+padding: 80px;
+text-align: center;
+background: url('https://via.placeholder.com/1200x400') center/cover;
+color: white;
+}
+.products .grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+.card {
+background: white;
+padding: 15px;
+border-radius: 12px;
+text-align: center;
+box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+.editor {
+padding: 20px;
+text-align: center;
+}
+#canvas {
+margin-top: 10px;
+max-width: 100%;
+border: 2px solid #333;
+}
+.controls button {
+margin: 10px;
+padding: 10px 20px;
+cursor: pointer;
+border: none;
+border-radius: 8px;
+background: #ffb47d;
+color: white;
+font-weight: bold;
+}
+.contact {
+padding: 20px;
+}
+.contact form {
+display: flex;
+flex-direction: column;
+max-width: 400px;
+margin: auto;
+}
+.contact input, .contact textarea {
+margin-bottom: 10px;
+padding: 10px;
+border-radius: 8px;
+border: 1px solid #aaa;
+}
